@@ -4,13 +4,15 @@ permalink: /:categories/:year/:month/:day/:title
 
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
+safe: true
+lsi: false
 pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
 title : Voodoo Griller
-tagline: Site Tagline
+tagline: TAGLINE
 author :
   name : Andrew Kreiling
   email : akreiling@pobox.com
